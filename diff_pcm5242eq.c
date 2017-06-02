@@ -253,6 +253,8 @@ int main(int argc,char **argv)
 	if(argc < 4){
 		printf("The parameter number must be 3.\n");
 		printf("Like this: \"reg_tool [original file] [compare file] [output file]\"\n");
+		printf("Outfile format like this: \"[eq type]_[sampling rate]_[frequency]_[gain].h\"\n");
+		printf("Outfile name example:\"custom_48k_1k_0db.h\"\n");
 		goto exit;
 	}	
 	
